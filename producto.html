@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Frontend Store</title>
+</head>
+<body>
+  <header class="header">
+    <a href="/">
+      <img class="header__logo" src="./img/logo.png" alt="Logo">
+    </a>
+  </header>
+
+  <nav class="nav">
+    <a class="nav__enlace nav__enlace--activo" href="./index.html">Tienda</a>
+    <a class="nav__enlace" href="./nosotros.html">Nosotros</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>React JS</h1>
+
+    <div class="camisa || contenedor">
+      <img src="./img/3.jpg" alt="Camisa react js" class="camisa__imagen">
+
+      <div class="camisa__comprar">
+        <p class="camisa__informacion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam beatae fugiat nostrum error quia aliquid, esse nisi amet facilis consequatur doloribus modi ipsa. Veritatis, laboriosam?</p>
+
+        <form class="camisa__formulario">
+          <select>
+            <option disabled selected>-- Seleccionar Talla --</option>
+            <option>Chica</option>
+            <option>Mediana</option>
+            <option>Grande</option>
+          </select>
+          <input type="number" min="1" placeholder="Cantidad">
+
+          <input type="button" value="Agregar al carrito" class="camisa__boton">
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__texto">Frontend Store - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

@@ -98,19 +98,18 @@ h3 { font-size: 2.4rem; }
 
 /** ---- Footer ---- */
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
     margin-top: 2rem;
     padding-block: 1rem;
   
+    text-align: center;
     background-color: var(--color-primarioOscuro);
 }
 .footer__texto {
     font-family: var(--fuente-primaria);
 }
-
+.footer__enlace {
+  color: var(--color-secundarioOscuro);
+}
 /** ---- Productos ---- */
 .producto {
   background-color: var(--color-primarioOscuro);
